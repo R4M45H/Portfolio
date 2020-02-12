@@ -871,11 +871,11 @@
 			transform: scale(1);
 		}
 
-		.image.fit:hover {
+		/* .image.fit:hover {
 			transition: 0.5s;
 			transform: scale(1.7);
 			z-index: 5;
-		}
+		} */
 
 		.image.featured {
 			display: block;
@@ -1024,7 +1024,13 @@
 			}
 
 /* Desktop */
-
+@media screen and (min-width: 1024px) {
+	 .image.fit:hover {
+			transition: 0.5s;
+			transform: scale(1.7);
+			z-index: 5;
+		} 
+	}
 	@media screen and (min-width: 737px) {
 
 		/* Basic */
