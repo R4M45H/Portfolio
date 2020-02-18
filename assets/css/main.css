@@ -958,10 +958,26 @@
 		line-height: 0.9em;
 	}
 
+	/* #nav #icon{
+		padding-top: 10px;
+		vertical-align: bottom;
+		background-image: url(../img/browswer5.svg);
+		background-repeat: no-repeat;
+	} */
+
+	#nav #icon::before{
+		content: url(../img/browswer5.svg);
+		width: 50px;
+		height: 43px;
+		top: 8px;
+		left: 0;
+		position: relative;
+	}
 		#nav a.icon:before {
 			padding-right: 0;
 		}
 
+	
 /* Panels */
 
 	#main {
