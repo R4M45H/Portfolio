@@ -1301,13 +1301,16 @@
 						margin-top: 0;
 					}
 
-		/* Footer */
-
-			#footer {
-				text-align: center;
-				padding: 2em 0 0 0;
-				font-size: 0.75em;
-			}
+					#me header > a{
+						position: absolute;
+						left:0;
+						top: 62.5%;
+						font-size: 1em;
+					}
+					#me header > a.phone{
+						left:0;
+						top: 72.5%;
+					}
 
 	}
 
@@ -1355,6 +1358,7 @@
 				header > p {
 					margin: 0.5em 0 0 0;
 				}
+				
 
 		/* Table */
 
@@ -1449,21 +1453,4 @@
 				#me header > p {
 					font-size: 1.25em;
 				}
-
-		/* Footer */
-
-			#footer {
-				text-align: center;
-				padding: 2em 0 0 0;
-				font-size: 0.85em;
-			}
-
-				#footer .copyright li {
-					display: block;
-				}
-
-					#footer .copyright li:before {
-						display: none;
-					}
-
 	}
