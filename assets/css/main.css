@@ -1008,6 +1008,11 @@
 .skills__box{
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.skills__box-item ul {
+	width: 100%;
+	max-width: 250px;
 }
 
 /* Footer */
