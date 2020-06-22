@@ -1207,7 +1207,7 @@ ol.default li {
 @media screen and (min-width: 1024px) {
   .image.fit:hover {
     transition: 0.5s;
-    transform: scale(1.1);
+    transform: scale(1.2);
     z-index: 5;
   }
 }
