@@ -955,7 +955,7 @@ dl,
 table,
 blockquote,
 form {
-  margin-bottom: 2em;
+  margin: 1em 0 1em;
 }
 
 /* Table */
